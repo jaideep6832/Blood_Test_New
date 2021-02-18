@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:p4="http://xamarin.com/mono/android/designer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:text="New Test Details"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <TextView
+            android:text="ID"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_test_id"
+            android:gravity="center_horizontal"
+            android:visibility="invisible"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_test_name"
+            android:textColor="@android:color/holo_red_dark"
+            android:hint="Test Name" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_test_range"
+            android:hint="Test Range "
+            android:textColor="@android:color/holo_red_dark" />
+
+         
+
+
+        <Button
+            android:text="New Test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_new_test"
+            android:background="@android:color/holo_orange_light" />
+
+       
+         <Button
+            android:text="Home Page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_home"
+            android:background="@android:color/holo_orange_light" />
+
+           <Button
+            android:text="Save Test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_save_test"
+            android:background="@android:color/holo_orange_light"  />
+
+
+                 <Button
+            android:text="Delete Test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_delete_test"
+            android:background="@android:color/holo_orange_light" />
+       
+        <Button
+            android:text="Update Test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_update_test"
+            android:background="@android:color/holo_orange_light" />
+    
+      
+                
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_tests"
+            android:minHeight="10dp" />
+
+
+    </LinearLayout>
+  
+</RelativeLayout>
